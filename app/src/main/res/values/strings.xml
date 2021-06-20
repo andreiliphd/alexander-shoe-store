@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="autoFillHintsLogin">Login</string>
+    <string name="hintLogin">Login</string>
+    <string name="autoFillHintsPassword">Password</string>
+    <string name="hintPassword">Password</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameLoginTextView">Login</string>
+    <string name="nameWelcomeTextView">Welcome</string>
+    <string name="welcomeDescriptionTextView1">Welcome to our shoe store.</string>
+    <string name="welcomeDescriptionTextView2">You can find many different models of shoes in out store. We glad you visit our app!</string>
+    <string name="instructionsDescriptionTextView1">Please, read instructions carefully.</string>
+    <string name="InstructionsDescriptionTextView2">One the next screen you can see list of shoes. You can also add list of shoes.</string>
+    <string name="nextButton">Next</string>
+    <string name="shoeDetail">Add shoe</string>
+    <string name="shoeCompanyName">Company Name</string>
+    <string name="shoeSize">Shoe Size</string>
+    <string name="shoeName">Shoe Name</string>
+    <string name="shoeDescription">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="shoesListTextView">Shoes</string>
+    <string name="shoeListAddFABDescription">Add shoe</string>
+    <string name="instructionsNameTextView">Instructions</string>
+    <string name="toolbarText">Ryabovo Shoe Store</string>
+    <string name="shoeDetailName">Add shoe</string>
+    <string name="logout">logout</string>
+</resources>
