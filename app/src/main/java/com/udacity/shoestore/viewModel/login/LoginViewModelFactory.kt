@@ -1,4 +1,4 @@
-package com.udacity.shoestore.view.login
+package com.udacity.shoestore.viewModel.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

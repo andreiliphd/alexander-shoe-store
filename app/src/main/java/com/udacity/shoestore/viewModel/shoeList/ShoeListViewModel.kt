@@ -1,4 +1,4 @@
-package com.udacity.shoestore.view.shoeList
+package com.udacity.shoestore.viewModel.shoeList
 
 import android.text.Editable
 import androidx.lifecycle.LiveData

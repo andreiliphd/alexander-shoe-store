@@ -14,9 +14,9 @@ import android.view.inputmethod.EditorInfo
 import android.widget.Toast
 import androidx.navigation.Navigation
 import com.udacity.shoestore.databinding.FragmentLoginBinding
-import com.udacity.shoestore.view.login.LoggedInUserView
-import com.udacity.shoestore.view.login.LoginViewModel
-import com.udacity.shoestore.view.login.LoginViewModelFactory
+import com.udacity.shoestore.viewModel.login.LoggedInUserView
+import com.udacity.shoestore.viewModel.login.LoginViewModel
+import com.udacity.shoestore.viewModel.login.LoginViewModelFactory
 
 class LoginFragment : Fragment() {
 
@@ -31,7 +31,7 @@ class LoginFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
 
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
         return binding.root

@@ -1,4 +1,4 @@
-package com.udacity.shoestore.view.login
+package com.udacity.shoestore.viewModel.login
 
 /**
  * User details post authentication that is exposed to the UI

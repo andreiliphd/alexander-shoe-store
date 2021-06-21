@@ -11,7 +11,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.Navigation
 import com.udacity.shoestore.data.model.Shoe
 import com.udacity.shoestore.databinding.FragmentShoeDetailBinding
-import com.udacity.shoestore.view.shoeList.ShoeListViewModel
+import com.udacity.shoestore.viewModel.shoeList.ShoeListViewModel
 import kotlinx.android.synthetic.main.fragment_welcome.*
 import timber.log.Timber
 
@@ -42,7 +42,7 @@ class ShoeDetailFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentShoeDetailBinding.inflate(inflater, container, false)
         binding.shoe = Shoe("Lizard",20.0, "ECCO","", ArrayList())

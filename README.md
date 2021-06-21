@@ -10,6 +10,10 @@ Buy shoes for yourself in our store.
 - Live data
 ---
 
+## Implementation
+- MVVC pattern(usage of Binder)
+- Directories naming reflect MVVC pattern data/model, viewModel and views
+
 
 ## Dependencies
 
@@ -47,6 +51,8 @@ git clone git@github.com:andreiliphd/alexander-shoe-store.git
 3. Run.
 ---
 
+## Changelog
+- Added comments to XML file justifiying usage of different types of layouts
 
 ## License
 MIT

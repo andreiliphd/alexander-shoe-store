@@ -9,11 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.Navigation
-import com.udacity.shoestore.R.menu.menu
 import com.udacity.shoestore.data.model.Shoe
 import com.udacity.shoestore.databinding.FragmentShoeListBinding
-import com.udacity.shoestore.view.shoeList.ShoeListViewModel
-import timber.log.Timber
+import com.udacity.shoestore.viewModel.shoeList.ShoeListViewModel
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -70,8 +68,8 @@ class ShoeListFragment : Fragment() {
 
     fun displayShoes(shoes: ArrayList<Shoe>) {
         for (shoe in shoes) {
-            var item: TextView = TextView(context)
-            var params: LayoutParams = LayoutParams(
+            val item = TextView(context)
+            val params = LayoutParams(
                 LayoutParams.WRAP_CONTENT,
                 LayoutParams.WRAP_CONTENT
             )
@@ -87,7 +85,7 @@ class ShoeListFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentShoeListBinding.inflate(inflater, container, false)
         return binding.root

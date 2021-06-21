@@ -1,4 +1,4 @@
-package com.udacity.shoestore.view.login
+package com.udacity.shoestore.viewModel.login
 
 /**
  * Authentication result : success (user details) or error message.
